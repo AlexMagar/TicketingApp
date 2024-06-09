@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project Tailwind with npx create-next-app@latest
+
+This is Ticketing app that allow user to create a ticket with title, description, category, priority, and status...
+
+In this app implements CRUD function.
+
+Technologies used: NextJS, AppRouter, Tailwind, Mongodb Atlast 
 
 ## Getting Started
 
