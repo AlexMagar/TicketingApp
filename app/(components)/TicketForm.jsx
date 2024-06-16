@@ -70,7 +70,7 @@ const handleOnSubmit = async (e) => {
 }
 
   return (
-    <div className='p-5 grid grid-cols-1 sm-grid-col-1 item'>
+    <div className='grid grid-cols-1 sm-grid-col-1 item'>
         <form className='flex flex-col gap-3 ' method='post' onSubmit={handleOnSubmit}>
             <h3>
                 {
