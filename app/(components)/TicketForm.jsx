@@ -70,8 +70,8 @@ const handleOnSubmit = async (e) => {
 }
 
   return (
-    <div className='flex justify-center'>
-        <form className='flex flex-col gap-3 w-1/2' method='post' onSubmit={handleOnSubmit}>
+    <div className='p-5 grid grid-cols-1 sm-grid-col-1 item'>
+        <form className='flex flex-col gap-3 ' method='post' onSubmit={handleOnSubmit}>
             <h3>
                 {
                     EDITMODE ? 'Update your Ticket' : 'Create your Ticket'
